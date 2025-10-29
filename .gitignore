@@ -1,4 +1,1 @@
-.env
-letsencrypt/acme.json
-*.secret
-*.bak
+traefik_backup/

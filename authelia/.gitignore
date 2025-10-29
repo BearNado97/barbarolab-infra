@@ -1,0 +1,7 @@
+.env
+configuration.yml
+data
+storage.sqlite3
+notification.txt
+*.bak
+*.secret

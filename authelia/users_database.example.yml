@@ -1,0 +1,7 @@
+users:
+  user:
+    displayname: "User"
+    email: "user@example.com"
+    password: "$argon2id$REDACTED_HASH_HERE"
+    groups:
+      - admins
