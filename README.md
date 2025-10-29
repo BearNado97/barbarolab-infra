@@ -8,23 +8,24 @@ This repository is structured for clarity, scalability, and automation, ensuring
 
 ## Directory Layout
 
-barbarolab-infra/
-├── traefik/ # Reverse proxy and SSL termination via Cloudflare DNS-01 challenge
-│ ├── docker-compose.yml
-│ ├── .env.example
-│ ├── .gitignore
-│ └── README.md
-│
-├── authelia/ # SSO (Single Sign-On) and 2FA authentication gateway
-│ ├── docker-compose.yml
-│ ├── configuration.example.yml
-│ ├── users_database.example.yml
-│ ├── .gitignore
-│ └── README.md
-│
-├── plex-stack/ # (Upcoming) Plex media ecosystem — Radarr, Sonarr, etc.
-│
-└── README.md # You’re here
+    barbarolab-infra/
+    ├── traefik/             # Reverse proxy and SSL termination via Cloudflare DNS-01 challenge
+    │   ├── docker-compose.yml
+    │   ├── .env.example
+    │   ├── .gitignore
+    │   └── README.md
+    │
+    ├── authelia/            # SSO (Single Sign-On) and 2FA authentication gateway
+    │   ├── docker-compose.yml
+    │   ├── configuration.example.yml
+    │   ├── users_database.example.yml
+    │   ├── .gitignore
+    │   └── README.md
+    │
+    ├── plex-stack/           # (Upcoming) Plex media ecosystem — Radarr, Sonarr, etc.
+    │
+    └── README.md             # You’re here
+
 
 
 ---
